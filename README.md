@@ -11,3 +11,5 @@
 
 ```Easy to Delete```
 ![image](https://user-images.githubusercontent.com/64537788/136653422-3aec74f9-edb5-4143-882f-ea5ba359974a.png)
+
+***How to use? The popups will appear to guide you while using this app***
