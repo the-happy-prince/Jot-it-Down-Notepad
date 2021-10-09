@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write Your Notes</title>
+    <link rel="shortcut icon" href="https://img.icons8.com/external-itim2101-flat-itim2101/64/000000/external-notepad-school-stationery-itim2101-flat-itim2101.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body onload="startUp();">
+    <h1 id="heading">Jot it Down!</h1>
+    <div id="container" contenteditable="true" spellcheck="false" tabindex="-1">
+        <textarea name="text" id="textBox" cols="30" rows="10" placeholder="Type here..."></textarea>
+        <button type="submit" id="submit" onclick="newNote()" tabindex="-1">New Note</button>
+        <button type="submit" id="submit" onclick="submitNote()" tabindex="-1">Save Note</button>
+        <button type="submit" id="submit" onclick="viewNoteClick()" tabindex="-1">View Notes</button>
+    </div>
+    <div id="recentNotesDiv" tabindex="-1">
+        <h2 id="heading2">Recent Notes</h2>
+        <ul id="recentNotes"></ul> 
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
